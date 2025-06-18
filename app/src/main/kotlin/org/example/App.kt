@@ -10,8 +10,7 @@ import org.example.lib.tokenizers.Tokenizer
 import java.io.File
 import kotlin.time.Duration.Companion.seconds
 
-private val userDir: String
-    get() = System.getProperty("user.dir")
+private val userDir: String = System.getProperty("user.dir")
 
 // Example 1: Basic Setup and Simple Search
 suspend fun basicUsageExample() {
