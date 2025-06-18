@@ -4,7 +4,7 @@ This is a Kotlin-based example application that demonstrates file indexing, real
 
 ## `file-examples` Directory
 
-The `[file-examples](https://github.com/EdwardDiehl/file-indexer-example/tree/main/file-examples)` directory contains sample files used to demonstrate the app's functionality. You can:
+The [`file-examples`](https://github.com/EdwardDiehl/file-indexer-example/tree/main/file-examples) directory contains sample files used to demonstrate the app's functionality. You can:
 
 - Add new files
 - Edit existing ones
