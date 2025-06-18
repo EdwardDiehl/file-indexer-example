@@ -1,0 +1,10 @@
+2025-06-15 14:03:12 [ERROR] [ServiceWorker] Request processing is too slow: exceeded 5000ms threshold
+2025-06-15 14:03:15 [FATAL] [AuthManager] Memory allocation failure: unable to allocate 2048MB
+2025-06-15 14:03:18 [Exception] [CacheHandler] java.lang.OutOfMemoryError: Java heap space
+2025-06-15 14:03:20 [CRITICAL] [DatabaseConnection] Connection timeout while accessing user data
+2025-06-15 14:03:25 [ERROR] [PerformanceMonitor] High latency detected in transaction pipeline
+2025-06-15 14:03:28 [CRITICAL] [RenderEngine] Performance degradation: frame rendering time exceeds limit
+2025-06-15 14:03:30 [FATAL] [SystemCore] Kernel panic due to unrecoverable memory corruption
+2025-06-15 14:03:34 [Exception] [APIClient] TimeoutException: API response not received within 10 seconds
+2025-06-15 14:03:38 [ERROR] [TaskScheduler] Task execution delayed due to slow background process
+2025-06-15 14:03:41 [CRITICAL] [LoadBalancer] Resource starvation detected under peak load conditions

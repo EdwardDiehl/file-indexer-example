@@ -12,16 +12,23 @@ plugins {
 
     // Apply the application plugin to add support for building a CLI application in Java.
     application
+
+    id("org.jlleitschuh.gradle.ktlint") version "12.3.0"
 }
 
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
+    flatDir {
+        dirs("../libs")
+    }
 }
 
 dependencies {
     // This dependency is used by the application.
     implementation(libs.guava)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
+    implementation("org.example:fileindexer:0.0.1")
 }
 
 testing {
