@@ -52,19 +52,21 @@ application {
     // Define the main class for the application.
     mainClass = "org.example.AppKt"
 
-    applicationDefaultJvmArgs = listOf(
-        "-Xmx512m",
-        "-Xms256m",
-        "-XX:MaxMetaspaceSize=256m"
-    )
+    applicationDefaultJvmArgs =
+        listOf(
+            "-Xmx512m",
+            "-Xms256m",
+            "-XX:MaxMetaspaceSize=256m",
+        )
 }
 
 tasks.named<JavaExec>("run") {
-    jvmArgs = listOf(
-        "-Xmx512m",
-        "-Xms256m",
-        "-XX:MaxMetaspaceSize=256m"
-    )
+    jvmArgs =
+        listOf(
+            "-Xmx512m",
+            "-Xms256m",
+            "-XX:MaxMetaspaceSize=256m",
+        )
 
     workingDir = rootProject.projectDir
 
