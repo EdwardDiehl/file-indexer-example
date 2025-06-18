@@ -66,6 +66,8 @@ tasks.named<JavaExec>("run") {
         "-XX:MaxMetaspaceSize=256m"
     )
 
+    workingDir = rootProject.projectDir
+
     // Enable interactive mode for console input
     standardInput = System.`in`
 
